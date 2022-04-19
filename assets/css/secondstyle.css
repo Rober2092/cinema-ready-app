@@ -1,4 +1,4 @@
-pagination{
+.pagination{
     display:flex;
     margin:10px 30px;
     align-items: center;
@@ -134,4 +134,8 @@ pagination{
 
 .dots .dot.active{
     border-color: rgba(23, 139, 152, 0.646);
+}
+.overview {
+  background-color: var(--secondary-color);
+  color:white;
 }
