@@ -2,10 +2,11 @@
 
 *{
     box-sizing: border-box;
+    padding: 10px;
 }
 
 :root{
-    --primary-color:#0000007c;
+    --primary-color:#130544;
     --secondary-color: #0000007c;
 }
 
@@ -130,6 +131,21 @@ main{
 .tag.highlight{
     background-color: red;
 }
+.tag:hover{
+    background-color: red;
+}
 .no-results{
     color:white;
+}
+.pagination {
+    color:white;
+}
+.closebtn {
+    color: white;
+}
+.left-arrow {
+    color: white;
+}
+.right-arrow {
+    color: white;
 }
