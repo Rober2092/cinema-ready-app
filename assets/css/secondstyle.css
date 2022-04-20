@@ -9,6 +9,9 @@ pagination{
 .page{
     padding:20px;
     cursor:pointer;
+    color: white;
+    display:flex;
+    align-items: center;
 }
 
 .page.disabled{
