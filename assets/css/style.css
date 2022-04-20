@@ -137,12 +137,10 @@ main{
 .no-results{
     color:white;
 }
-.pagination {
-    color:white;
-}
 .closebtn {
     color: white;
 }
+/* arrow keys */
 .left-arrow {
     color: white;
 }
