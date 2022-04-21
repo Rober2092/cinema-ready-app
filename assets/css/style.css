@@ -154,3 +154,9 @@ main{
 .know-more:hover{
     background-color: red;
 }
+#logo {
+    float: left;
+    justify-content: left;
+    height: 150px;
+    width: 150px ;
+}
