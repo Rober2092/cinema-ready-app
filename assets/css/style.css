@@ -20,10 +20,8 @@ body{
 header{
     padding:1rem;
     display:flex;
-    justify-content: flex-end;
     background-color: var(--secondary-color);
 }
-
 .search{
     background-color: transparent;
     border: 2px solid var(--primary-color);
@@ -32,6 +30,7 @@ header{
     font-size: 1rem;
     color:#fff;
     font-family: inherit;
+    justify-content: flex-end;
 }
 
 .search:focus{
@@ -155,8 +154,6 @@ main{
     background-color: red;
 }
 #logo {
-    float: left;
-    justify-content: left;
     height: 150px;
     width: 150px ;
 }
