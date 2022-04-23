@@ -133,6 +133,9 @@ main{
 .tag.highlight{
     background-color: red;
 }
+.tag:hover{
+    background-color: red;
+}
 .no-results{
     color:white;
 }
