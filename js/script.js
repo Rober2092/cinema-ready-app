@@ -346,19 +346,30 @@ function getColor(vote) {
     }
 }
 
-form.addEventListener('submit', (e) => {
-    e.preventDefault();
+// form.addEventListener('submit', (e) => {
+//     e.preventDefault();
 
-    const searchTerm = search.value;
-    selectedGenre=[];
-    setGenre();
-    if(searchTerm) {
-        getMovies(searchURL+'&query='+searchTerm)
-    }else{
-        getMovies(API_URL);
-    }
+document.getElementById('form')
+    .addEventListener('keyup', function(event) {
+        if (event.code === 'Enter')
+        {
+        
+            document.querySelector('#form').submit();
+        }
+        const searchTerm = form.value;
+        selectedGenre=[];
+        setGenre();
+        if(searchTerm) {
+            getMovies(searchURL+'&query='+searchTerm)
+        }else{
+            getMovies(API_URL);
+        }
+        return searchTerm;
+    });
 
-})
+   
+
+
 
 prev.addEventListener('click', () => {
   if(prevPage > 0){
